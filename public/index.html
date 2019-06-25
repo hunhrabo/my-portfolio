@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+      integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/_styles/styles.css" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <header id="header" class="header">
+      <!-- <a href="#header" class="logo">
+        ht
+      </a> -->
+      <div class="social-links-top">
+        <ul class="social-links">
+          <li>
+            <a
+              href="https://github.com/hunhrabo"
+              rel="noopener noreferrer"
+              target="_blank" title="GitHub"
+            >
+              <i class="fab fa-github" aria-hidden="true">
+                <span class="sr-only">GitHub</span></i
+              >
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/tam%C3%A1s-hrabovszki-43399455/"
+              rel="noopener noreferrer"
+              target="_blank" title="LinkedIn"
+            >
+              <i class="fab fa-linkedin" aria-hidden="true">
+                <span class="sr-only">LinkedIn</span></i
+              >
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.facebook.com/hrabovszki.tamas"
+              rel="noopener noreferrer"
+              target="_blank" title="Facebook"
+            >
+              <i class="fab fa-facebook" aria-hidden="true">
+                <span class="sr-only">Facebook</span></i
+              >
+            </a>
+          </li>
+          <li>
+            <a href="mailto:hrabotam@gmail.com" title="Send me an email">
+              <i class="fas fa-envelope" aria-hidden="true">
+                <span class="sr-only">Gmail</span></i
+              >
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <div class="banner-section" role="banner">
+      <div class="banner-content">
+        <h3>hello, I am</h3>
+        <h1>Tamás Hrabovszki</h1>
+        <p>full stack web developer</p>
+      </div>
+      <nav class="site-nav" role="navigation">
+        <ul>
+          <li>
+            <a href="#projects">projects</a>
+          </li>
+          <li>
+            <a href="#about">about</a>
+          </li>
+          <li>
+            <a href="#footer">
+              contact
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <main class="main" role="main">
+      <article class="projects-container" id="projects">
+        <div class="projects-header">PROJECTS</div>
+        <hr class="separator" />
+
+        <section class="project-section project-one">
+          <div class="flex-container">
+            <div class="flex-col left">
+              <div class="content-wrap">
+                <h2 class="project-name">Currency Converter</h2>
+                <p class="project-details">
+                  A simple web app to get fresh currency conversion data using
+                  an XML-based public API provided by www.napiarfolyam.hu.
+                </p>
+                <div class="project-nav-container">
+                  <button>
+                    <a
+                      href="https://salty-forest-20285.herokuapp.com/"
+                      target="_blank"
+                      >Visit site</a
+                    >
+                  </button>
+
+                  <button>
+                    <a
+                      href="https://github.com/hunhrabo/valutavalto"
+                      target="_blank"
+                      >GitHub repo</a
+                    >
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="flex-col right">
+              <div class="content-wrap">
+                <img src="_images/valutavalto.jpg" class="product-img" />
+                <div class="tech-stack">
+                  <div><img src="_images/logos/react-logo.png" /></div>
+                  <div>
+                    <img src="_images/logos/256px-Node.js_logo_2015.svg.png" />
+                  </div>
+                  <div><img src="_images/logos/express.png" /></div>
+                  <div><img src="_images/logos/heroku.png" /></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="project-nav-container">
+            <ul class="nav-list-flex">
+              <li>
+                <a
+                  href="https://salty-forest-20285.herokuapp.com/"
+                  target="_blank"
+                  >Visit site</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/hunhrabo/valutavalto"
+                  target="_blank"
+                  >Check out on GitHub</a
+                >
+              </li>
+            </ul>
+          </div> -->
+        </section>
+        <section class="project-section project-two">
+          <div class="flex-container">
+            <div class="flex-col left">
+              <div class="content-wrap">
+                <img src="_images/memory_cards_3.jpg" class="product-img" />
+                <div class="tech-stack">
+                  <div><img src="_images/logos/react-logo.png" /></div>
+                  <div><img src="_images/logos/heroku.png" /></div>
+                </div>
+              </div>
+            </div>
+            <div class="flex-col right">
+              <div class="content-wrap">
+                <h2 class="project-name">Memory Cards</h2>
+                <p class="project-details">
+                  Memory Card game with three game modes using random pictures
+                  fetched dinamically from Lorem Picsum.
+                </p>
+                <div class="project-nav-container">
+                  <button>
+                    <a
+                      href="https://memory-cards-game-react-app.herokuapp.com/"
+                      target="_blank"
+                      >Visit site</a
+                    >
+                  </button>
+
+                  <button>
+                    <a
+                      href="https://github.com/hunhrabo/memory_card_game"
+                      target="_blank"
+                      >GitHub repo</a
+                    >
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </article>
+      <article class="about-container" id="about">
+        <div class="about-header">ABOUT ME</div>
+        <hr class="separator" />
+        <section class="about-section">
+          <div class="flex-container">
+            <div class="flex-col left">
+              <div class="content-wrap">
+                  <h3>Tamás Hrabovszki</h3>
+                <p>Full stack web developer and tech enthusiast. I like simple and clear design.</p><p>Right now I am studying web development at the Univerity of Turku, Finland and looking for a job as a MERN stack developer.</p> 
+                <br/>
+                <h4>My skillset:</h4>
+                <p>HTML, CSS, Bootstrap, JavaScript (ES6+), React.js, Redux, Node.js, Express.js, MongoDB, Git, GitHub, GitLab, Heroku, Nginx, AWS Cloud (EC2, Lambda, API Gateway, Cognito, DynamoDB)</p>
+              </div>
+              
+            </div>
+            <div class="flex-col right">
+              <div class="content-wrap">
+                <img src="_images/profile-img-2.png" class="profile-img"/>
+                </div>
+          </div>
+        </section>
+      </article>
+    </main>
+    <footer class="footer" role="contentinfo" id="footer">
+      <button class="back-to-top-btn"><a href="#header" title="Back to top"><i class="fas fa-angle-double-up fa-2x"></i></a></button>
+      <h4>Interested in my work? Contact me on the usual channels:</h4>
+      <div class="social-links-bottom">
+        <ul class="social-links">
+          <li>
+            <a
+              href="https://github.com/hunhrabo"
+              rel="noopener noreferrer"
+              target="_blank" title="GitHub"
+            >
+              <i class="fab fa-github" aria-hidden="true">
+                <span class="sr-only">GitHub</span></i
+              >
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/tam%C3%A1s-hrabovszki-43399455/"
+              rel="noopener noreferrer"
+              target="_blank" title="LinkedIn"
+            >
+              <i class="fab fa-linkedin" aria-hidden="true">
+                <span class="sr-only">LinkedIn</span></i
+              >
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.facebook.com/hrabovszki.tamas"
+              rel="noopener noreferrer"
+              target="_blank" title="Facebook"
+            >
+              <i class="fab fa-facebook" aria-hidden="true">
+                <span class="sr-only">Facebook</span></i
+              >
+            </a>
+          </li>
+          <li>
+            <a href="mailto:hrabotam@gmail.com" title="Send me an email">
+              <i class="fas fa-envelope" aria-hidden="true">
+                <span class="sr-only">Gmail</span></i
+              >
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footnote">
+        <span>TAMÁS HRABOVSZKI</span>
+        <span class="highlight">&copy;2019</span>
+      </div>
+    </footer>
+  </body>
+</html>
