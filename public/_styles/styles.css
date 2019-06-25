@@ -248,7 +248,7 @@ li {
 
 .flex-container {
   display: flex;
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
   padding: 100px 0;
 }
@@ -516,10 +516,11 @@ li {
 /* Media Queries
 ------------------ */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
   .flex-container {
     flex-direction: column;
     justify-content: center;
+    width: 80%;
     padding: 50px 0;
   }
 
