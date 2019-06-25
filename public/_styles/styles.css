@@ -460,6 +460,12 @@ li {
   cursor: pointer;
 }
 
+.back-to-top-btn a {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+}
+
 .back-to-top-btn i {
   color: rgba(240, 240, 240, 0.8);
   transition-property: margin;
